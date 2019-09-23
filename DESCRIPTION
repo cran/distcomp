@@ -1,12 +1,13 @@
 Title: Computations over Distributed Data without Aggregation
 Maintainer: Balasubramanian Narasimhan <naras@stat.Stanford.EDU>
 Package: distcomp
-Version: 1.0-1
+Version: 1.1
+VignetteBuilder: knitr
 URL: http://dx.doi.org/10.18637/jss.v077.i13
 Depends: survival, stats, R (>= 3.1.0)
 Imports: utils, shiny, httr (>= 1.0.0), digest, jsonlite, stringr, R6
         (>= 2.0)
-Suggests: opencpu
+Suggests: opencpu, knitr, covr
 Authors@R: c(person("Balasubramanian", "Narasimhan", role=c("aut", "cre"),
 	   	   email = "naras@stat.Stanford.EDU"),
            person("Marina", "Bendersky", role=c("aut")),
@@ -19,18 +20,19 @@ Description: Implementing algorithms and fitting models when sites (possibly rem
   provided. The former makes direct use of code from the R 'survival' package. (That is,
   the underlying Cox model code is derived from that in the R 'survival' package.)
   Sites may provide data via several means: CSV files, Redcap API, etc. An extensible
-  design allows for new methods to be added in the future. Web applications are provided
-  (via 'shiny') for the implemented methods to help in designing and deploying the
-  computations.
+  design allows for new methods to be added in the future and includes facilities
+  for local prototyping and testing. Web applications are provided (via 'shiny') for
+  the implemented methods to help in designing and deploying the computations.
 Copyright: inst/COPYRIGHTS
+Encoding: UTF-8
 License: LGPL (>= 2)
-RoxygenNote: 6.0.1
+RoxygenNote: 6.1.1
 NeedsCompilation: yes
-Packaged: 2017-05-16 18:43:31 UTC; naras
+Packaged: 2019-09-23 18:32:37 UTC; naras
 Author: Balasubramanian Narasimhan [aut, cre],
   Marina Bendersky [aut],
   Sam Gross [aut],
   Terry M. Therneau [ctb],
   Thomas Lumley [ctb]
 Repository: CRAN
-Date/Publication: 2017-05-16 19:08:02 UTC
+Date/Publication: 2019-09-23 18:50:03 UTC
