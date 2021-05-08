@@ -3,7 +3,6 @@
 \docType{package}
 \name{distcomp}
 \alias{distcomp}
-\alias{distcomp-package}
 \title{Distributed Computing with R}
 \description{
 \code{distcomp} is a collection of methods to fit models to data that may be
@@ -26,7 +25,7 @@ We make the following assumptions in the implementation:
 the full data is row-partitioned into sites where the rows are observations;
 (b) Each site has the package \code{distcomp} installed and a workspace setup
 for (writeable) use by the \code{opencpu} server
-(see \code{\link{distcompSetup}}); and (c) each site is exposing \code{distcomp}
+(see \code{\link[=distcompSetup]{distcompSetup()}}; and (c) each site is exposing \code{distcomp}
 via an \code{opencpu} server.
 
 The main computation happens via a master process, a script of R code,
@@ -41,7 +40,7 @@ not meant to be recomputed often. These and other details are discussed in the
 paper mentioned above.
 
 The current implementation, particularly the Stratified Cox Model, makes direct use of
-code from \code{\link[survival]{coxph}}. That is, the underlying Cox model code is
+code from \code{\link[survival:coxph]{survival::coxph()}}. That is, the underlying Cox model code is
 derived from that in the R \code{survival} survival package.
 
 For an understanding of how this package is meant to be used, please see the documented
