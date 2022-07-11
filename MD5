@@ -1,4 +1,4 @@
-247e5e252bf97bd579c5fea1aa59aee2 *DESCRIPTION
+925b1f1135a105079c212fd5f44f4019 *DESCRIPTION
 69e8a8ad618824e1ab3174d136f7d43e *NAMESPACE
 0fff0ac6999fd2a540d5d852f4a8ad31 *NEWS.md
 f40f21666c76d72d4151ac6306847cd0 *R/coxstuff.R
@@ -10,14 +10,14 @@ f40f21666c76d72d4151ac6306847cd0 *R/coxstuff.R
 6264ede22d6c8fc3f973a0b2a32d33ca *R/survivalstuff.R
 3aaaf84fa6e32e7e62e03d7d0f4b32b0 *R/svdstuff.R
 4ceb8047d53ae07ba0d83d541ca13df7 *README.md
-7cf4cc80840bd35fea2d714206c743c3 *build/vignette.rds
+93c26bda523e5b7d16203e9ea12ea803 *build/vignette.rds
 524754188097c8798c3dccde2ad4783f *inst/CITATION
 f55d2f79fb025883510ec2514585e9a0 *inst/COPYRIGHTS
 95d0cf2ebedd88a3a2067e9d3d76d55d *inst/doc/examples.html
 86b91c02111dfbb7fafd733f792e12cf *inst/doc/examples.pdf
 ac98c8e0dfce9504f141c72850944189 *inst/doc/prototyping.R
 3eff13f91453d0807b4ae5a18f816df2 *inst/doc/prototyping.Rmd
-b73a124ce94ac886cf2ef2c9cfcca68b *inst/doc/prototyping.html
+4a050c0413434a2ce6bef48380a34585 *inst/doc/prototyping.html
 243b225f395c07f6736d27887c3cbf96 *inst/doc_src/examples.Rmd
 88ba0b338996369b8b283b1fe4b913f6 *inst/doc_src/prostate.RDS
 185ef7886107c37ce813389f53deaccd *inst/ex/README.Rmd
@@ -114,9 +114,9 @@ d94c1cc2e40aa31a4deaebd2dd09e393 *man/writeCode.Rd
 4df7e06ba19e37b66b6c0ed6119f3219 *src/chsolve2.c
 2ea96485136e6fd4215d294fdb4b73f0 *src/coxcount1.c
 e95afa599b5a2e8cc4e8a24a56b27879 *src/coxfit6.c
-6a85c40ec6742f6986c0e53932a5d1da *src/coxmart.c
+429659a98d2b935cbb22bc83fbeb6e98 *src/coxmart.c
 c84812b76eb487d1681437f9e00aae17 *src/dmatrix.c
 52cf3522b1f6f4163a427f9fd2f18afa *src/init.c
-80beea3c5d4e2c8495444dfcbe497016 *src/survS.h
-e1491093658ffa2fb7f93033301e46c4 *src/survproto.h
+30eab7b5218143f2af5f0fa5f7ea905e *src/survS.h
+5e46c12b268d18578abc28d4da616e44 *src/survproto.h
 3eff13f91453d0807b4ae5a18f816df2 *vignettes/prototyping.Rmd

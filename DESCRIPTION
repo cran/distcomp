@@ -1,7 +1,7 @@
 Title: Computations over Distributed Data without Aggregation
 Maintainer: Balasubramanian Narasimhan <naras@stat.Stanford.EDU>
 Package: distcomp
-Version: 1.3-1
+Version: 1.3-2
 VignetteBuilder: knitr
 URL: http://dx.doi.org/10.18637/jss.v077.i13
 Depends: survival, stats, R (>= 3.5.0)
@@ -28,11 +28,11 @@ Encoding: UTF-8
 License: LGPL (>= 2)
 RoxygenNote: 7.0.2
 NeedsCompilation: yes
-Packaged: 2021-05-07 23:59:48 UTC; naras
+Packaged: 2022-07-11 02:15:18 UTC; naras
 Author: Balasubramanian Narasimhan [aut, cre],
   Marina Bendersky [aut],
   Sam Gross [aut],
   Terry M. Therneau [ctb],
   Thomas Lumley [ctb]
 Repository: CRAN
-Date/Publication: 2021-05-08 04:30:02 UTC
+Date/Publication: 2022-07-11 06:30:02 UTC
