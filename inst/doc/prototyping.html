@@ -11,7 +11,7 @@
 
 <meta name="author" content="Balasubramanian Narasimhan" />
 
-<meta name="date" content="2022-07-10" />
+<meta name="date" content="2022-09-01" />
 
 <title>Prototyping Distributed Computations</title>
 
@@ -365,7 +365,7 @@ pre code {
 
 <h1 class="title toc-ignore">Prototyping Distributed Computations</h1>
 <h4 class="author">Balasubramanian Narasimhan</h4>
-<h4 class="date">2022-07-10</h4>
+<h4 class="date">2022-09-01</h4>
 
 </div>
 
@@ -435,7 +435,7 @@ number of iterations, so that things don’t go haywire. This takes less
 than 5 seconds on my laptop.</p>
 <pre class="r"><code>system.time(result &lt;- master$run(max.iter = 10000))</code></pre>
 <pre><code>##    user  system elapsed 
-##   9.383  11.103  10.135</code></pre>
+##   9.681  11.376  10.395</code></pre>
 <p>The result is a named list of two things, the <span class="math inline">\(d\)</span> diagonal values and the <span class="math inline">\(v\)</span> matrix.</p>
 <p>We can compare the results obtained here with the actual.</p>
 <pre class="r"><code>full_data &lt;- do.call(rbind, siteData)
@@ -593,7 +593,7 @@ summary(coxFit)$coefficients</code></pre>
 <pre class="r"><code>sessionInfo()</code></pre>
 <pre><code>## R version 4.2.1 (2022-06-23)
 ## Platform: x86_64-apple-darwin21.5.0 (64-bit)
-## Running under: macOS Monterey 12.4
+## Running under: macOS Monterey 12.5.1
 ## 
 ## Matrix products: default
 ## BLAS:   /usr/local/Cellar/openblas/0.3.20/lib/libopenblasp-r0.3.20.dylib
@@ -606,22 +606,22 @@ summary(coxFit)$coefficients</code></pre>
 ## [1] stats     graphics  grDevices utils     datasets  methods   base     
 ## 
 ## other attached packages:
-## [1] distcomp_1.3-2 survival_3.3-1
+## [1] distcomp_1.3-3 survival_3.3-1
 ## 
 ## loaded via a namespace (and not attached):
-##  [1] gmp_0.6-5         Rcpp_1.0.8.3      highr_0.9         pillar_1.7.0     
-##  [5] bslib_0.3.1       compiler_4.2.1    later_1.3.0       jquerylib_0.1.4  
-##  [9] tools_4.2.1       digest_0.6.29     tibble_3.1.7      jsonlite_1.8.0   
+##  [1] gmp_0.6-5         Rcpp_1.0.9        highr_0.9         pillar_1.8.0     
+##  [5] bslib_0.4.0       compiler_4.2.1    later_1.3.0       jquerylib_0.1.4  
+##  [9] tools_4.2.1       digest_0.6.29     tibble_3.1.8      jsonlite_1.8.0   
 ## [13] evaluate_0.15     lifecycle_1.0.1   lattice_0.20-45   pkgconfig_2.0.3  
-## [17] rlang_1.0.2       Matrix_1.4-1      DBI_1.1.3         shiny_1.7.1      
+## [17] rlang_1.0.4       Matrix_1.4-1      DBI_1.1.3         shiny_1.7.2      
 ## [21] cli_3.3.0         yaml_2.3.5        xfun_0.31         fastmap_1.1.0    
 ## [25] httr_1.4.3        stringr_1.4.0     dplyr_1.0.9       knitr_1.39       
-## [29] generics_0.1.2    sass_0.4.1        vctrs_0.4.1       tidyselect_1.1.2 
+## [29] generics_0.1.3    sass_0.4.2        vctrs_0.4.1       tidyselect_1.1.2 
 ## [33] grid_4.2.1        glue_1.6.2        R6_2.5.1          fansi_1.0.3      
 ## [37] rmarkdown_2.14    homomorpheR_0.2-2 purrr_0.3.4       magrittr_2.0.3   
-## [41] promises_1.2.0.1  htmltools_0.5.2   ellipsis_0.3.2    splines_4.2.1    
+## [41] promises_1.2.0.1  htmltools_0.5.3   ellipsis_0.3.2    splines_4.2.1    
 ## [45] assertthat_0.2.1  mime_0.12         xtable_1.8-4      httpuv_1.6.5     
-## [49] utf8_1.2.2        stringi_1.7.6     sodium_1.2.1      crayon_1.5.1</code></pre>
+## [49] utf8_1.2.2        stringi_1.7.8     sodium_1.2.1      cachem_1.0.6</code></pre>
 </div>
 
 
