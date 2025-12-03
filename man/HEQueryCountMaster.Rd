@@ -10,7 +10,7 @@
 \code{\link[=HEQueryCountWorker]{HEQueryCountWorker()}} which goes hand-in-hand with this object
 }
 \section{Super class}{
-\code{distcomp::QueryCountMaster} -> \code{HEQueryCountMaster}
+\code{\link[distcomp:QueryCountMaster]{distcomp::QueryCountMaster}} -> \code{HEQueryCountMaster}
 }
 \section{Public fields}{
 \if{html}{\out{<div class="r6-fields">}}

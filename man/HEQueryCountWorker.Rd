@@ -11,7 +11,7 @@ a distributed query count model computation using homomorphic encryption
 \code{\link[=HEQueryCountMaster]{HEQueryCountMaster()}} which goes hand-in-hand with this object
 }
 \section{Super class}{
-\code{distcomp::QueryCountWorker} -> \code{HEQueryCountWorker}
+\code{\link[distcomp:QueryCountWorker]{distcomp::QueryCountWorker}} -> \code{HEQueryCountWorker}
 }
 \section{Public fields}{
 \if{html}{\out{<div class="r6-fields">}}
